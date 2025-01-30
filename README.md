@@ -1,4 +1,4 @@
-# RL4SE: Reinforcement Learning for Software Engineering
+# RL4SE: Reinforcement Learning for AIGAME(LunarLander-v3)
 
 ![WandB Badge](https://wandb.ai/evansnyanney-ohio-university/sb3-lunar-lander-Evans%20Nyanney?nw=nwuserevansnyanney)
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
