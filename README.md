@@ -1,5 +1,5 @@
 # RL4SE
-Reinforcement Learning Project for CS4900/5900GameAI
+# Reinforcement Learning Project for CS4900/5900GameAI
 
 
 ![RL4SE Banner](https://i.imgur.com/YourImageURL.png) <!-- Optional: Add a banner image by replacing the URL -->
