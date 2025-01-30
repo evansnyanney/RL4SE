@@ -17,8 +17,6 @@ RL4SE is a reinforcement learning project focused on applying the **Proximal Pol
 - **Git LFS Integration:** Manages large video files efficiently using Git Large File Storage.
 - **Modular Code Structure:** Organized scripts and utilities for maintainability and scalability.
 
-## Training Video Demo
-
 
 ## Installation
 
