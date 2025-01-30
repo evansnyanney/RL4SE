@@ -1,6 +1,6 @@
 # RL4SE: Reinforcement Learning for Software Engineering 
 
-![RL4SE Banner](https://github.com/evansnyanney/RL4SE/blob/main/images/banner.png?raw=true)
+![RL4SE Banner](https://github.com/evansnyanney/RL4SE/blob/main/images/banner.png?raw=true) 
 
 ## Description
 
