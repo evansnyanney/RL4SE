@@ -1,6 +1,7 @@
-# RL4SE: Reinforcement Learning for AIGAME(LunarLander-v3)
+# RL4SE: Reinforcement Learning for AIGAME (LunarLander-v3)
 
-![WandB Badge](https://wandb.ai/evansnyanney-ohio-university/sb3-lunar-lander-Evans%20Nyanney?nw=nwuserevansnyanney)
+<!-- WandB Badge -->
+[![WandB Project](https://img.shields.io/badge/Weights%20%26%20Biases-Project-blue?logo=wandb)](https://wandb.ai/evansnyanney-ohio-university/sb3-lunar-lander-Evans%20Nyanney?nw=nwuserevansnyanney)
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Python Version](https://img.shields.io/badge/python-3.7%2B-blue)
 ![GitHub Repo size](https://img.shields.io/github/repo-size/evansnyanney/RL4SE)
@@ -73,8 +74,6 @@ Before you begin, ensure you have met the following requirements:
 - **OpenAI Gymnasium Environment:** Installed as part of the dependencies
 
 ### 📥 Clone the Repository
-
-Clone the repository to your local machine using Git:
 
 ```bash
 git clone https://github.com/evansnyanney/RL4SE.git
