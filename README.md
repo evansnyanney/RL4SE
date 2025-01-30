@@ -2,7 +2,7 @@
 # Reinforcement Learning Project for CS4900/5900GameAI
 
 
-![RL4SE Banner](https://github.com/evansnyanney/RL4SE/blob/main/images/banner.png?raw=true)
+[![RL4SE Agent Training Video](https://github.com/evansnyanney/RL4SE/blob/main/images/video-thumbnail.png?raw=true)](https://youtu.be/5KJ1yyYt030)
 
 
 ## Description
