@@ -1,6 +1,6 @@
 # RL4SE: Reinforcement Learning for Software Engineering
 
-[![WandB Badge](https://wandb.ai/evansnyanney-ohio-university/sb3-lunar-lander-Evans%20Nyanney?nw=nwuserevansnyanney)
+[![WandB Badge](https://wandb.ai/evansnyanney-ohio-university/sb3-lunar-lander-Evans%20Nyanney/badge.svg)](https://wandb.ai/evansnyanney-ohio-university/sb3-lunar-lander-Evans%20Nyanney?nw=nwuserevansnyanney)
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Python Version](https://img.shields.io/badge/python-3.7%2B-blue)
 ![GitHub Repo size](https://img.shields.io/github/repo-size/evansnyanney/RL4SE)
