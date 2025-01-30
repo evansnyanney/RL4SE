@@ -1,9 +1,9 @@
 import os
 import gymnasium as gym
+from stable_baselines3 import PPO
 from stable_baselines3.common.monitor import Monitor
 from stable_baselines3.common.callbacks import EvalCallback
 from stable_baselines3.common.vec_env import DummyVecEnv
-from sb3_contrib import RecurrentPPO
 import wandb
 from wandb.integration.sb3 import WandbCallback
 import Box2D
@@ -13,10 +13,10 @@ from utils import record_video, show_videos
 def main():
     # Configuration
     config = {
-        "policy_type": "MlpLstmPolicy",  # LSTM-based policy
+        "policy_type": "MlpPolicy",  # Standard MLP policy
         "total_timesteps": 500_000,
         "env_name": "LunarLander-v3",
-        "project_name": "sb3-recurrent-ppo-lunar-lander",
+        "project_name": "sb3-ppo-lunar-lander-evans-nyanney",
     }
 
     # Initialize WandB
@@ -36,14 +36,12 @@ def main():
     # Create the environment
     env = DummyVecEnv([lambda: Monitor(gym.make(config["env_name"], render_mode="rgb_array"))])
 
-    # Initialize the Recurrent PPO model
-    model = RecurrentPPO(
+    # Initialize the PPO model
+    model = PPO(
         config["policy_type"],
         env,
         verbose=1,
         tensorboard_log=f"logs/{wandb.run.id}",
-        device="auto",    # Automatically use GPU if available
-        use_rnn=True,      # Enable RNN (LSTM) usage
     )
 
     # Define evaluation callback
@@ -63,7 +61,7 @@ def main():
     )
 
     # Save the trained model
-    model_path = f"models/lunar_lander_recurrent_ppo_{wandb.run.id}"
+    model_path = f"models/lunar_lander_ppo_{wandb.run.id}"
     model.save(model_path)
     print(f"Model saved to {model_path}")
 
@@ -71,14 +69,14 @@ def main():
     record_video(
         env_id=config["env_name"],
         model=model,
-        video_length=500,
-        prefix="ppo-lstm-lunarlander",
+        video_length=1000,
+        prefix="ppo-lunarlander",
         video_folder="videos/",
     )
 
     # Display the recorded video
-    video_html = show_videos(video_path="videos", prefix="ppo-lstm-lunarlander")
-    print(video_html)  # In Colab, use `display(video_html)` if running interactively
+    video_html = show_videos(video_path="videos", prefix="ppo-lunarlander")
+    display(video_html)
 
     wandb.finish()
 
