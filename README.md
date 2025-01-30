@@ -1,7 +1,9 @@
 # RL4SE: Reinforcement Learning for Software Engineering
 
-![RL4SE Banner](https://github.com/evansnyanney/RL4SE/blob/main/images/banner.png?raw=true)
- 
+
+## Training Demo
+
+![RL4SE Agent Training Demo](https://github.com/evansnyanney/RL4SE/blob/main/training-demo.gif?raw=true)
 ## Description
 
 RL4SE is a reinforcement learning project focused on applying the **Proximal Policy Optimization (PPO)** algorithm to the **LunarLander-v3** environment from OpenAI's Gymnasium. This project leverages **Stable Baselines3** for model implementation and **Weights & Biases (WandB)** for experiment tracking and visualization. Additionally, it incorporates **Git Large File Storage (LFS)** to manage large video recordings of agent performance.
@@ -17,7 +19,6 @@ RL4SE is a reinforcement learning project focused on applying the **Proximal Pol
 
 ## Training Video Demo
 
-![RL4SE Agent Training Demo](https://github.com/evansnyanney/RL4SE/blob/main/training-demo.gif?raw=true)
 
 ## Installation
 
