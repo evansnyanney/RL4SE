@@ -2,7 +2,8 @@
 # Reinforcement Learning Project for CS4900/5900GameAI
 
 
-![RL4SE Banner](https://i.imgur.com/YourImageURL.png) <!-- Optional: Add a banner image by replacing the URL -->
+![RL4SE Banner](https://github.com/evansnyanney/RL4SE/blob/main/images/banner.png?raw=true)
+
 
 ## Description
 
