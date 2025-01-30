@@ -1,6 +1,6 @@
-# RL4SE: Reinforcement Learning for Software Engineering 
+# RL4SE: Reinforcement Learning for Software Engineering
 
-![RL4SE Banner](https://github.com/evansnyanney/RL4SE/blob/main/images/banner.png?raw=true) 
+![RL4SE Banner](https://github.com/evansnyanney/RL4SE/blob/main/images/banner.png?raw=true)
 
 ## Description
 
@@ -17,7 +17,7 @@ RL4SE is a reinforcement learning project focused on applying the **Proximal Pol
 
 ## Training Video Demo
 
-![RL4SE Agent Training Demo](https://github.com/evansnyanney/RL4SE/blob/main/images/training-demo.gif?raw=true)
+![RL4SE Agent Training Demo](https://github.com/evansnyanney/RL4SE/blob/main/training-demo.gif?raw=true)
 
 ## Installation
 
