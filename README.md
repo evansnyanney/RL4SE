@@ -37,7 +37,7 @@
 
 ## 📈 Training Demo
 
-<img src="https://github.com/evansnyanney/RL4SE/blob/main/training-demo.gif?raw=true" alt="RL4SE Agent Training Demo" width="800"/>
+<img src="https://github.com/evansnyanney/RL4SE/blob/main/training-demo.gif?raw=true" alt="RL4SE Agent Training Demo" width="1000"/>
 
 *Watch the RL4SE agent successfully land on the lunar surface using the PPO algorithm.*
 
