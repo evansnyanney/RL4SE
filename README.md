@@ -40,46 +40,50 @@
 *Watch the RL4SE agent successfully land on the lunar surface using the PPO algorithm.*
 
 
-
-
 ## 📊 Key Performance Metrics
 
 <table>
   <tr>
     <td align="center">
       <img src="https://github.com/evansnyanney/RL4SE/blob/main/performance_metrics/eval1.png?raw=true" alt="Eval 1" width="250"/><br/>
-      <sub>**Eval 1:** Description of Eval 1.</sub>
+      <sub>**Eval 1:** Initial evaluation metric showing baseline performance.</sub>
     </td>
     <td align="center">
       <img src="https://github.com/evansnyanney/RL4SE/blob/main/performance_metrics/eval2.png?raw=true" alt="Eval 2" width="250"/><br/>
-      <sub>**Eval 2:** Description of Eval 2.</sub>
+      <sub>**Eval 2:** Secondary evaluation metric indicating progress.</sub>
     </td>
     <td align="center">
       <img src="https://github.com/evansnyanney/RL4SE/blob/main/performance_metrics/rollout2.png?raw=true" alt="Rollout 2" width="250"/><br/>
-      <sub>**Rollout 2:** Description of Rollout 2.</sub>
+      <sub>**Rollout 2:** Rollout metrics during training phases.</sub>
     </td>
   </tr>
   <tr>
     <td align="center">
       <img src="https://github.com/evansnyanney/RL4SE/blob/main/performance_metrics/train_entropy_loss.png?raw=true" alt="Train Entropy Loss" width="250"/><br/>
-      <sub>**Train Entropy Loss:** Description of Train Entropy Loss.</sub>
+      <sub>**Train Entropy Loss:** Measures the randomness of the policy over time.</sub>
     </td>
     <td align="center">
       <img src="https://github.com/evansnyanney/RL4SE/blob/main/performance_metrics/train_learning_rate.png?raw=true" alt="Train Learning Rate" width="250"/><br/>
-      <sub>**Train Learning Rate:** Description of Train Learning Rate.</sub>
+      <sub>**Train Learning Rate:** Adaptive learning rate schedule during training.</sub>
     </td>
     <td align="center">
       <img src="https://github.com/evansnyanney/RL4SE/blob/main/performance_metrics/train_loss.png?raw=true" alt="Train Loss" width="250"/><br/>
-      <sub>**Train Loss:** Description of Train Loss.</sub>
+      <sub>**Train Loss:** Overall training loss decreasing over epochs.</sub>
     </td>
   </tr>
   <tr>
     <td align="center">
       <img src="https://github.com/evansnyanney/RL4SE/blob/main/performance_metrics/train_value_loss.png?raw=true" alt="Train Value Loss" width="250"/><br/>
-      <sub>**Train Value Loss:** Description of Train Value Loss.</sub>
+      <sub>**Train Value Loss:** Value loss metric showing accurate value estimation.</sub>
     </td>
-    <td></td>
-    <td></td>
+    <td align="center">
+      <img src="https://github.com/evansnyanney/RL4SE/blob/main/performance_metrics/train_approx_kl.png?raw=true" alt="Train Approx KL" width="250"/><br/>
+      <sub>**Train Approx KL:** Approximate KL divergence during training.</sub>
+    </td>
+    <td align="center">
+      <img src="https://github.com/evansnyanney/RL4SE/blob/main/performance_metrics/train_clip_fraction%20.png?raw=true" alt="Train Clip Fraction" width="250"/><br/>
+      <sub>**Train Clip Fraction:** Fraction of policy updates that were clipped.</sub>
+    </td>
   </tr>
 </table>
 
