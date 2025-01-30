@@ -39,6 +39,52 @@
 
 *Watch the RL4SE agent successfully land on the lunar surface using the PPO algorithm.*
 
+
+
+
+## 📊 Key Performance Metrics
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="https://github.com/evansnyanney/RL4SE/blob/main/performance_metrics/eval1.png?raw=true" alt="Eval 1" width="250"/><br/>
+      <sub>**Eval 1:** Description of Eval 1.</sub>
+    </td>
+    <td align="center">
+      <img src="https://github.com/evansnyanney/RL4SE/blob/main/performance_metrics/eval2.png?raw=true" alt="Eval 2" width="250"/><br/>
+      <sub>**Eval 2:** Description of Eval 2.</sub>
+    </td>
+    <td align="center">
+      <img src="https://github.com/evansnyanney/RL4SE/blob/main/performance_metrics/rollout2.png?raw=true" alt="Rollout 2" width="250"/><br/>
+      <sub>**Rollout 2:** Description of Rollout 2.</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="https://github.com/evansnyanney/RL4SE/blob/main/performance_metrics/train_entropy_loss.png?raw=true" alt="Train Entropy Loss" width="250"/><br/>
+      <sub>**Train Entropy Loss:** Description of Train Entropy Loss.</sub>
+    </td>
+    <td align="center">
+      <img src="https://github.com/evansnyanney/RL4SE/blob/main/performance_metrics/train_learning_rate.png?raw=true" alt="Train Learning Rate" width="250"/><br/>
+      <sub>**Train Learning Rate:** Description of Train Learning Rate.</sub>
+    </td>
+    <td align="center">
+      <img src="https://github.com/evansnyanney/RL4SE/blob/main/performance_metrics/train_loss.png?raw=true" alt="Train Loss" width="250"/><br/>
+      <sub>**Train Loss:** Description of Train Loss.</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="https://github.com/evansnyanney/RL4SE/blob/main/performance_metrics/train_value_loss.png?raw=true" alt="Train Value Loss" width="250"/><br/>
+      <sub>**Train Value Loss:** Description of Train Value Loss.</sub>
+    </td>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
+
+
+
 ## 🔍 Description
 
 RL4SE is a **reinforcement learning** project focused on applying the **Proximal Policy Optimization (PPO)** algorithm to the **LunarLander-v3** environment from OpenAI's Gymnasium. This project leverages **Stable Baselines3** for model implementation and **Weights & Biases (WandB)** for experiment tracking and visualization. Additionally, it incorporates **Git Large File Storage (LFS)** to manage large video recordings of agent performance.
