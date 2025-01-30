@@ -6,7 +6,6 @@
 ![GitHub stars](https://img.shields.io/github/stars/evansnyanney/RL4SE?style=social)
 ![GitHub forks](https://img.shields.io/github/forks/evansnyanney/RL4SE?style=social)
 
-![RL4SE Banner](https://github.com/evansnyanney/RL4SE/blob/main/Banner.png)raw=true)
 
 **RL4SE** stands for **Reinforcement Learning for Software Engineering**. This project leverages cutting-edge reinforcement learning algorithms to optimize and enhance software engineering processes. By applying the **Proximal Policy Optimization (PPO)** algorithm to the **LunarLander-v3** environment from OpenAI's Gymnasium, RL4SE demonstrates the practical applications of reinforcement learning in complex, real-world scenarios.
 
