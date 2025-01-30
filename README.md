@@ -1,9 +1,6 @@
-# RL4SE
-# Reinforcement Learning Project for CS4900/5900GameAI
+# RL4SE: Reinforcement Learning for Software Engineering
 
-
-[![RL4SE Agent Training Video](https://github.com/evansnyanney/RL4SE/blob/main/images/video-thumbnail.png?raw=true)](https://youtu.be/5KJ1yyYt030)
-
+![RL4SE Banner](https://github.com/evansnyanney/RL4SE/blob/main/images/banner.png?raw=true)
 
 ## Description
 
@@ -17,6 +14,10 @@ RL4SE is a reinforcement learning project focused on applying the **Proximal Pol
 - **Model Saving:** Saves trained models for future use and evaluation.
 - **Git LFS Integration:** Manages large video files efficiently using Git Large File Storage.
 - **Modular Code Structure:** Organized scripts and utilities for maintainability and scalability.
+
+## Training Video Demo
+
+![RL4SE Agent Training Demo](https://github.com/evansnyanney/RL4SE/blob/main/images/training-demo.gif?raw=true)
 
 ## Installation
 
