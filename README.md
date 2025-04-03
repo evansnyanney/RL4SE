@@ -4,7 +4,7 @@
 [![WandB Project](https://img.shields.io/badge/Weights%20%26%20Biases-Project-blue?logo=wandb)](https://wandb.ai/evansnyanney-ohio-university/sb3-lunar-lander-Evans%20Nyanney?nw=nwuserevansnyanney)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/evansnyanney/RL4SE/main/LICENSE)
 ![Python Version](https://img.shields.io/badge/python-3.7%2B-blue)
-![GitHub Repo size](https://img.shields.io/github/repo-size/evansnyanney/RL4SE)
+![GitHub Repo size](https://img.shields.io/github/repo-size/evansnyanney/RL4SE) 
 ![GitHub stars](https://img.shields.io/github/stars/evansnyanney/RL4SE?style=social)  
 ![GitHub forks](https://img.shields.io/github/forks/evansnyanney/RL4SE?style=social)
 
