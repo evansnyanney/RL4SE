@@ -1,4 +1,4 @@
-# RL4SE: Reinforcement Learning for AIGAME (LunarLander-v3)
+# RL4SE: Reinforcement Learning for AIGAME (LunarLander-v3) 
 
 <!-- WandB Badge -->
 [![WandB Project](https://img.shields.io/badge/Weights%20%26%20Biases-Project-blue?logo=wandb)](https://wandb.ai/evansnyanney-ohio-university/sb3-lunar-lander-Evans%20Nyanney?nw=nwuserevansnyanney)
